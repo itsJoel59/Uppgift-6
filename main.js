@@ -16,6 +16,7 @@ inputBtn.addEventListener(
             error.innerHTML == "";
             let result = toCapital(input);
             resultOutput.innerHTML = result;
+            console.log(result);
             inputField.value = null;
         }
     },
