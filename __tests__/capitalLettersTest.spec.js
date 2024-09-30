@@ -16,4 +16,15 @@ describe("toCapital() Function Test", () => {
         expect(toCapital(input)).toBe(expectedResult);
 
     });
+
+    //test to fail?
+    test("test case 2", () => {
+
+
+        const input = "hundrafemtiotusen";
+        const expectedResult = input;
+
+        expect(toCapital(input)).toBe(expectedResult);
+
+    });
 });
