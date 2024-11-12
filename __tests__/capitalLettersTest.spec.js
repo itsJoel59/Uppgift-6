@@ -1,10 +1,6 @@
-//function to test
-function toCapital(string){
+import { toCapital } from "../src/toCapital";
 
-    return string.toUpperCase();
-}
-
-//testet
+//test
 describe("toCapital() Function Test", () => {
 
     test("test case 1", () => {
