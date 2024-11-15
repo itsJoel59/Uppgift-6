@@ -1,4 +1,4 @@
-import { toCapital } from "../src/toCapital";
+const {toCapital} = require('./src/main')
 
 //test
 describe("toCapital() Function Test", () => {

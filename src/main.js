@@ -1,4 +1,4 @@
-const inputField = document.querySelector("#inputField");
+/* const inputField = document.querySelector("#inputField");
 const inputBtn = document.querySelector("#inputBtn");
 
 inputBtn.addEventListener(
@@ -21,9 +21,11 @@ inputBtn.addEventListener(
         }
     },
     false
-);
+); */
 
-export function toCapital(string){
+function toCapital(string){
 
     return string.toUpperCase();
 }
+// const toCapital = (string) => string.toUpperCase();
+module.exports = { toCapital }
